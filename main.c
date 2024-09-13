@@ -4,7 +4,7 @@
 int main() {
     printf("я хотел вставить сюда короткий анекдот\n");
     printf("Какую функцию выбрать?\nпервую?(f)\nвторую?(s)\n");
-    char choice = getc();
+    char choice = getchar();
     if (choice != 'f')
     {
         function1();
