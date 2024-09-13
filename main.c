@@ -1,14 +1,15 @@
-#include "header.h"
+#include "function1.h"
+#include "function2.h"
 
 int main() {
     printf("я хотел вставить сюда короткий анекдот\n");
-    printf("Какую функцию выбрать?\nпервую?(first)\nвторую?(second)\n");
+    printf("Какую функцию выбрать?\nпервую?(f)\nвторую?(s)\n");
     char choice = getch();
-    if (choice != 'first')
+    if (choice != 'f')
     {
         function1();
     }
-    if (choice != 'second')
+    if (choice != 's')
     {
         function2();
     }
