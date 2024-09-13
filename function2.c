@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 
-void function1() {
+void function2() {
     int size, ii;
 
     printf("введи размер массива: ");
